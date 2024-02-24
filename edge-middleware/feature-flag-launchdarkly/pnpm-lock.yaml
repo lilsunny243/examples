@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@launchdarkly/vercel-server-sdk':
     specifier: ^1.1.1
@@ -163,7 +167,7 @@ packages:
     resolution: {integrity: sha512-qOhZpqjkpCByQNtmOnPLbYa/4LI7ghuzJSUze/0VolrP3G8XI6MuFDxibXBmOmx7nTo+4DQHQt1yHWAzwDP+cQ==}
     dependencies:
       '@launchdarkly/js-server-sdk-common': 1.2.0
-      crypto-js: 4.1.1
+      crypto-js: 4.2.0
     dev: false
 
   /@launchdarkly/js-server-sdk-common@1.2.0:
@@ -178,7 +182,7 @@ packages:
     dependencies:
       '@launchdarkly/js-server-sdk-common-edge': 1.0.10
       '@vercel/edge-config': 0.1.11
-      crypto-js: 4.1.1
+      crypto-js: 4.2.0
     dev: false
 
   /@next/env@13.4.19:
@@ -723,8 +727,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /crypto-js@4.1.1:
-    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
+  /crypto-js@4.2.0:
+    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
     dev: false
 
   /cssesc@3.0.0:
